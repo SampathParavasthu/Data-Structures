@@ -8,7 +8,7 @@ class Queue {
   }
 
   remove() {
-    this.list.shift();
+    this.list.length && this.list.shift();
   }
 
   print() {
