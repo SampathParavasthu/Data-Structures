@@ -3,11 +3,11 @@ class Stack {
     this.list = [];
   }
 
-  push(value) {
+  add(value) {
     this.list.push(value);
   }
 
-  pop() {
+  remove() {
     if (this.list.length) {
       this.list.pop();
     }
@@ -30,15 +30,4 @@ class Stack {
   }
 }
 
-let stack = new Stack();
-
-console.log(stack.size);
-stack.push(1);
-stack.push(2);
-console.log(stack.peek());
-stack.push(3);
-console.log(stack.size);
-console.log(stack.print());
-stack.pop();
-console.log(stack.size);
-console.log(stack.print());
+export default Stack;
