@@ -71,15 +71,4 @@ class LinkedList {
 
 }
 
-
-let linkedList = new LinkedList();
-console.log(linkedList);
-linkedList.insert('car');
-console.log(linkedList);
-linkedList.insert('bike');
-linkedList.insert('bus');
-linkedList.insert('plane');
-console.log(JSON.stringify(linkedList));
-linkedList.remove('bus');
-console.log(JSON.stringify(linkedList));
-// export default LinkedList;
+export default LinkedList;
